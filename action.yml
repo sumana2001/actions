@@ -1,0 +1,13 @@
+name: 'Greeting'
+description: 'First github action'
+inputs: 
+  name: 
+    description: 'User Name'
+    required: true
+    default: 'User'
+outputs: 
+  time: 
+    description: 'time of greeting'
+runs:
+  using: 'node12'
+  main: 'index.js'
